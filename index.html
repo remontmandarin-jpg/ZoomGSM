@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ZoomGSM — Ремонт телефонов, планшетов, ноутбуков</title>
+
+<!-- SEO -->
+<meta name="description" content="ZoomGSM — 20 лет опыта. Ремонт телефонов, планшетов, смарт-часов и ноутбуков. Замена модулей, аккумуляторов, разъемов. Гарантия от 4 месяцев. Ремонт день в день.">
+<meta name="keywords" content="ремонт телефонов, ремонт планшетов, ремонт ноутбуков, ремонт смарт часов, замена экрана, замена аккумулятора, ремонт платы, реболл процессора, восстановление связи">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:title" content="ZoomGSM — профессиональный ремонт техники">
+<meta property="og:description" content="20 лет опыта. Ремонт телефонов, планшетов, ноутбуков и часов. Гарантия от 4 месяцев.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="logo.png">
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #000;
+    color: white;
+    line-height: 1.5;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    border-bottom: 1px solid #111;
+    flex-wrap: wrap;
+}
+
+header nav a {
+    color: #aaa;
+    margin: 10px 15px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero img {
+    width: 750px;
+    max-width: 95%;
+}
+
+/* BUTTONS */
+.btn {
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.call { background: #c40000; }
+.insta { border: 1px solid #555; }
+
+/* SECTIONS */
+section {
+    padding: 70px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.center { text-align: center; }
+
+/* SERVICES */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 15px;
+}
+
+details {
+    background: #0f0f0f;
+    border: 1px solid #222;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+/* ADV */
+.advantages {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.adv {
+    background: #0f0f0f;
+    border: 1px solid #222;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* CONTACTS */
+.contacts {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #0f0f0f;
+    border: 1px solid #222;
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 280px;
+}
+
+iframe {
+    width: 100%;
+    height: 180px;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+    border-top: 1px solid #111;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <div style="font-weight:bold;font-size:22px;">
+        <span style="background:white;color:black;padding:3px 8px;">Zoom</span>
+        <span style="color:red;">GSM</span>
+    </div>
+
+    <nav>
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#advantages">Преимущества</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+    <img src="logo.png" alt="ZoomGSM">
+
+    <div>
+        <a href="#about" class="btn">О нас</a>
+        <a href="tel:+375296609979" class="btn call">Позвонить</a>
+        <a href="https://www.instagram.com/zoomgsm2010/" class="btn insta" target="_blank">Instagram</a>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2 class="center">О НАС</h2>
+
+    <p class="center">
+        20 лет опыта. Без посредников. Ремонт техники любой сложности.
+        Гарантия от 4 месяцев. Ремонт день в день при возможности.
+    </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <h2 class="center">УСЛУГИ</h2>
+
+    <div class="services">
+
+        <details>
+            <summary>📱 Смартфоны</summary>
+            <p>Замена модуля<br>
+                Замена аккумулятора<br>
+                Замена разъема зарядки<br>
+                Замена задней крышки
+            </p>
+        </details>
+
+        <details>
+            <summary>📲 Планшеты</summary>
+            <p>
+                Замена экрана<br>
+                Замена батареи<br>
+                Ремонт платы
+            </p>
+        </details>
+
+        <details>
+            <summary>⌚️ Смарт-часы</summary>
+            <p>
+                Замена стекла<br>
+                Ремонт электроники<br>
+                Восстановление работы
+            </p>
+        </details>
+
+        <details>
+            <summary>💻 Ноутбуки</summary>
+            <p>
+                Диагностика<br>
+                Замена компонентов<br>
+                Ремонт материнской платы
+            </p>
+        </details>
+
+        <details>
+            <summary>🛠 Сложный ремонт</summary>
+            <p>
+                Сложный технический ремонт<br>
+                Реболл процессора<br>
+                Восстановление связи
+            </p>
+        </details>
+
+    </div>
+</section>
+
+<!-- ADVANTAGES -->
+<section id="advantages">
+    <h2 class="center">ПРЕИМУЩЕСТВА</h2>
+
+    <div class="advantages">
+        <div class="adv">20 лет работы</div>
+        <div class="adv">Без посредников</div>
+        <div class="adv">Высокое качество ремонта</div>
+        <div class="adv">Ремонт день в день</div>
+        <div class="adv">Гарантия от 4 месяцев</div>
+    </div>
+</section>
+
+<!-- CONTACTS -->
+<section id="contacts">
+    <h2 class="center">КОНТАКТЫ</h2>
+
+    <div class="contacts">
+
+        <div class="card">
+            <h3>Проспект Ленина 34</h3>
+            <p>Пн–Пт: 09:00 – 18:00</p>
+            <p>Сб: 11:00 – 16:00</p>
+
+            <iframe loading="lazy"
+                src="https://maps.google.com/maps?q=Проспект%20Ленина%2034&output=embed">
+            </iframe>
+        </div>
+
+        <div class="card center">
+            <p>📞 +375 29 660-99-79</p>
+            <p>📞 +375 29 707-99-79</p>
+
+            <a href="tel:+375296609979" class="btn call">Позвонить</a>
+            <a href="https://www.instagram.com/zoomgsm2010/" class="btn insta" target="_blank">Instagram</a>
+        </div>
+
+        <div class="card">
+            <h3>ТЦ Мандарин Плаза</h3>
+            <p>проспект Речицкий 5В, 30Б</p>
+            <p>Ежедневно: 10:00 – 20:00</p>
+
+            <iframe loading="lazy"
+                src="https://maps.google.com/maps?q=проспект%20Речицкий%205В&output=embed">
+            </iframe>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+© 2026 ZoomGSM
+</footer>
+
+</body>
+</html>
